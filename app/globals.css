@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-brand: #BCFB24;
+  --color-brand-hover: #D0FC5A;
+  --font-display: var(--font-bebas-neue);
+  --font-sans: var(--font-poppins);
+  
+  --animate-slow-zoom: slow-zoom 20s infinite alternate;
+  
+  @keyframes slow-zoom {
+    0% {
+      transform: scale(1.02);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+}
